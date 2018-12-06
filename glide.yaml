@@ -1,0 +1,52 @@
+import:
+- package: github.com/golang/protobuf
+  subpackages:
+  - protoc-gen-go/descriptor
+  - ptypes/timestamp
+  - ptypes/any
+  - proto
+  - ptypes
+  - ptypes/duration
+  version: 9c8fb7a95075eb047ab75e702de52f68ff360f17
+- package: golang.org/x/net
+  subpackages:
+  - context/ctxhttp
+  - lex/httplex
+  - idna
+  - internal/timeseries
+  - context
+  - http2
+  - http2/hpack
+  - trace
+  version: e0c57d8f86c17f0724497efcb3bc617e82834821
+- package: golang.org/x/oauth2
+  subpackages:
+  - google
+  - ''
+  - jwt
+  - jws
+  - internal
+  version: 543e37812f10c46c622c9575afd7ad22f22a12ba
+- package: golang.org/x/text
+  subpackages:
+  - unicode/norm
+  - transform
+  - secure/bidirule
+  - unicode/bidi
+  version: 4e4a3210bb54bb31f6ab2cdca2edcc0b50c420c1
+- package: google.golang.org/genproto
+  subpackages:
+  - googleapis/rpc/status
+  version: 2b5a72b8730b0b16380010cfe5286c42108d88e7
+- package: github.com/golang/mock
+  subpackages:
+  - gomock
+  version: 58cd061d09382b6011f84c1291ebe50ef2e25bab
+- package: github.com/golang/glog
+  version: 23def4e6c14b4da8ac2ed8007337bc5eb5007998
+- package: cloud.google.com/go
+  subpackages:
+  - compute/metadata
+  version: 64b33df07166dbc1e596a67a110947bcc7cc41cb
+package: google.golang.org/grpc
+
